@@ -14,16 +14,12 @@ module.exports = function (callback) {
 		} else {
 			//console.log(JSON.stringify(body, null, 4));
 			//string is in the body variable so just parse out data from there.
-			callback('It\'s' + body.main.temp +' in '+ body.name +'!');
+			callback('It\'s ' + body.main.temp +' in '+ body.name +'!');
 
 		}
 
 	});
 }
-
-
-
-
 
 
 // this is built into nodeJS and can be set to anything 
